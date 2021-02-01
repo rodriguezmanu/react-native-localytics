@@ -792,23 +792,23 @@ public class LLLocalyticsModule extends ReactContextBaseJavaModule {
     });
   }
 
-  @ReactMethod
-  public void forceInAppMessage(final ReadableMap params) {
-    localyticsHandler.post(new Runnable() {
-      @Override
-      public void run() {
-        String campaignId = getString(params, "campaignId");
-        String creativeId = getString(params, "creativeId");
-        String localFilePath = getString(params, "localFilePath");
-        if (!TextUtils.isEmpty(localFilePath)) {
-          Localytics.forceInAppMessage(new File(localFilePath));
-        } else if (!TextUtils.isEmpty(campaignId) && !TextUtils.isEmpty(creativeId)) {
-          Localytics.forceInAppMessage(campaignId, creativeId);
-        }
+//   @ReactMethod
+//   public void forceInAppMessage(final ReadableMap params) {
+//     localyticsHandler.post(new Runnable() {
+//       @Override
+//       public void run() {
+//         String campaignId = getString(params, "campaignId");
+//         String creativeId = getString(params, "creativeId");
+//         String localFilePath = getString(params, "localFilePath");
+//         if (!TextUtils.isEmpty(localFilePath)) {
+//           Localytics.forceInAppMessage(new File(localFilePath));
+//         } else if (!TextUtils.isEmpty(campaignId) && !TextUtils.isEmpty(creativeId)) {
+//           Localytics.forceInAppMessage(campaignId, creativeId);
+//         }
 
-      }
-    });
-  }
+//       }
+//     });
+//   }
 
   @ReactMethod
   public void setInAppMessageDismissButtonLocation(final String location) {
