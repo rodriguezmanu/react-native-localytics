@@ -1,0 +1,26 @@
+{
+  "name": "localytics-react-native",
+  "version": "3.2.0",
+  "description": "Localytics analytics and marketing platform",
+  "summary": "Native bindings for the Localytics iOS & Android SDKs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "localytics",
+    "analytics",
+    "marketing",
+    "messaging",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/localytics/react-native-template-app.git"
+  },
+  "author": "Localytics",
+  "license": "Custom",
+  "homepage": "https://github.com/localytics/react-native-template-app"
+}

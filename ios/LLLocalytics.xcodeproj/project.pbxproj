@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09162A98204253B900DD835D /* LLMessagingDelegateBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3E14B1EFD7BEF0044EC51 /* LLMessagingDelegateBridge.m */; };
+		09162A99204253C300DD835D /* LLLocationEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3E14E1EFD7BFF0044EC51 /* LLLocationEmitter.m */; };
+		09162A9A204253CB00DD835D /* LLAnalyticsEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E3E1481EFD7BD60044EC51 /* LLAnalyticsEmitter.m */; };
+		09162A9D204257AD00DD835D /* LLMessagingEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09162A9C204257AD00DD835D /* LLMessagingEmitter.m */; };
+		094652EA204270C600948E94 /* LLLocalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* LLLocalytics.m */; };
+		094654012043091100948E94 /* LocalyticsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 094653FF2043091100948E94 /* LocalyticsPlugin.m */; };
+		097D4AB62044DF08002C2E32 /* CLLocation+LocalyticsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 097D4AB52044DF08002C2E32 /* CLLocation+LocalyticsHelper.m */; };
+		09874788204458AA0072D8CB /* LLObservingEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09874787204458AA0072D8CB /* LLObservingEmitter.m */; };
+		A90A846320D7DE2D00BFA455 /* LLCallToActionEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = A90A846120D7DE2C00BFA455 /* LLCallToActionEmitter.m */; };
+		A9A3ADA021C3D1BE00198E1D /* LLWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A3AD9F21C3D1BE00198E1D /* LLWebViewManager.m */; };
+		A9EC79EB21C96FF000C318F5 /* LLWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EC79EA21C96FF000C318F5 /* LLWebView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09F67E4B203E9AE1006B4E16 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Frameworks;
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09162A9B204257AD00DD835D /* LLMessagingEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMessagingEmitter.h; sourceTree = "<group>"; };
+		09162A9C204257AD00DD835D /* LLMessagingEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMessagingEmitter.m; sourceTree = "<group>"; };
+		094653FF2043091100948E94 /* LocalyticsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalyticsPlugin.m; sourceTree = SOURCE_ROOT; };
+		094654002043091100948E94 /* LocalyticsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalyticsPlugin.h; sourceTree = SOURCE_ROOT; };
+		097D4AB42044DF08002C2E32 /* CLLocation+LocalyticsHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLocation+LocalyticsHelper.h"; sourceTree = "<group>"; };
+		097D4AB52044DF08002C2E32 /* CLLocation+LocalyticsHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+LocalyticsHelper.m"; sourceTree = "<group>"; };
+		09874786204458AA0072D8CB /* LLObservingEmitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLObservingEmitter.h; sourceTree = "<group>"; };
+		09874787204458AA0072D8CB /* LLObservingEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLObservingEmitter.m; sourceTree = "<group>"; };
+		09F67E4D203E9AE1006B4E16 /* libLLLocalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLLLocalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E3E1471EFD7BD60044EC51 /* LLAnalyticsEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAnalyticsEmitter.h; sourceTree = "<group>"; };
+		81E3E1481EFD7BD60044EC51 /* LLAnalyticsEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAnalyticsEmitter.m; sourceTree = "<group>"; };
+		81E3E14A1EFD7BEF0044EC51 /* LLMessagingDelegateBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLMessagingDelegateBridge.h; sourceTree = "<group>"; };
+		81E3E14B1EFD7BEF0044EC51 /* LLMessagingDelegateBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLMessagingDelegateBridge.m; sourceTree = "<group>"; };
+		81E3E14D1EFD7BFF0044EC51 /* LLLocationEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLocationEmitter.h; sourceTree = "<group>"; };
+		81E3E14E1EFD7BFF0044EC51 /* LLLocationEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLocationEmitter.m; sourceTree = "<group>"; };
+		A90A845B20D7CEDC00BFA455 /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
+		A90A846120D7DE2C00BFA455 /* LLCallToActionEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCallToActionEmitter.m; sourceTree = "<group>"; };
+		A90A846220D7DE2D00BFA455 /* LLCallToActionEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCallToActionEmitter.h; sourceTree = "<group>"; };
+		A9A3AD9E21C3D1BE00198E1D /* LLWebViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLWebViewManager.h; sourceTree = "<group>"; };
+		A9A3AD9F21C3D1BE00198E1D /* LLWebViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLWebViewManager.m; sourceTree = "<group>"; };
+		A9EC79E921C96FEC00C318F5 /* LLWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLWebView.h; sourceTree = "<group>"; };
+		A9EC79EA21C96FF000C318F5 /* LLWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLWebView.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* LLLocalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLLocalytics.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* LLLocalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLLocalytics.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F67E4A203E9AE1006B4E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094653FE204308FD00948E94 /* PluginLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				097D4AB42044DF08002C2E32 /* CLLocation+LocalyticsHelper.h */,
+				097D4AB52044DF08002C2E32 /* CLLocation+LocalyticsHelper.m */,
+				094654002043091100948E94 /* LocalyticsPlugin.h */,
+				094653FF2043091100948E94 /* LocalyticsPlugin.m */,
+			);
+			path = PluginLibrary;
+			sourceTree = "<group>";
+		};
+		09F67DB1203E7F37006B4E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				A90A846220D7DE2D00BFA455 /* LLCallToActionEmitter.h */,
+				A90A846120D7DE2C00BFA455 /* LLCallToActionEmitter.m */,
+				A90A845B20D7CEDC00BFA455 /* Frameworks */,
+				09874786204458AA0072D8CB /* LLObservingEmitter.h */,
+				09874787204458AA0072D8CB /* LLObservingEmitter.m */,
+				094653FE204308FD00948E94 /* PluginLibrary */,
+				B3E7B5881CC2AC0600A0062D /* LLLocalytics.h */,
+				B3E7B5891CC2AC0600A0062D /* LLLocalytics.m */,
+				A9A3AD9E21C3D1BE00198E1D /* LLWebViewManager.h */,
+				A9A3AD9F21C3D1BE00198E1D /* LLWebViewManager.m */,
+				A9EC79E921C96FEC00C318F5 /* LLWebView.h */,
+				A9EC79EA21C96FF000C318F5 /* LLWebView.m */,
+				81E3E1471EFD7BD60044EC51 /* LLAnalyticsEmitter.h */,
+				81E3E1481EFD7BD60044EC51 /* LLAnalyticsEmitter.m */,
+				09162A9B204257AD00DD835D /* LLMessagingEmitter.h */,
+				09162A9C204257AD00DD835D /* LLMessagingEmitter.m */,
+				81E3E14D1EFD7BFF0044EC51 /* LLLocationEmitter.h */,
+				81E3E14E1EFD7BFF0044EC51 /* LLLocationEmitter.m */,
+				81E3E14A1EFD7BEF0044EC51 /* LLMessagingDelegateBridge.h */,
+				81E3E14B1EFD7BEF0044EC51 /* LLMessagingDelegateBridge.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				09F67DB1203E7F37006B4E16 /* Frameworks */,
+				09F67E4D203E9AE1006B4E16 /* libLLLocalytics.a */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F67E4C203E9AE1006B4E16 /* LLLocalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F67E53203E9AE1006B4E16 /* Build configuration list for PBXNativeTarget "LLLocalytics" */;
+			buildPhases = (
+				09F67E49203E9AE1006B4E16 /* Sources */,
+				09F67E4A203E9AE1006B4E16 /* Frameworks */,
+				09F67E4B203E9AE1006B4E16 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLLocalytics;
+			productName = LLLocalytics;
+			productReference = 09F67E4D203E9AE1006B4E16 /* libLLLocalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Localytics;
+				TargetAttributes = {
+					09F67E4C203E9AE1006B4E16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "LLLocalytics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F67E4C203E9AE1006B4E16 /* LLLocalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F67E49203E9AE1006B4E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90A846320D7DE2D00BFA455 /* LLCallToActionEmitter.m in Sources */,
+				A9EC79EB21C96FF000C318F5 /* LLWebView.m in Sources */,
+				09874788204458AA0072D8CB /* LLObservingEmitter.m in Sources */,
+				094652EA204270C600948E94 /* LLLocalytics.m in Sources */,
+				09162A9D204257AD00DD835D /* LLMessagingEmitter.m in Sources */,
+				097D4AB62044DF08002C2E32 /* CLLocation+LocalyticsHelper.m in Sources */,
+				094654012043091100948E94 /* LocalyticsPlugin.m in Sources */,
+				09162A98204253B900DD835D /* LLMessagingDelegateBridge.m in Sources */,
+				09162A99204253C300DD835D /* LLLocationEmitter.m in Sources */,
+				09162A9A204253CB00DD835D /* LLAnalyticsEmitter.m in Sources */,
+				A9A3ADA021C3D1BE00198E1D /* LLWebViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09F67E54203E9AE1006B4E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B5RBQNC48C;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_FRAMEWORK_NAMES = Localytics;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09F67E55203E9AE1006B4E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B5RBQNC48C;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_FRAMEWORK_NAMES = Localytics;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F67E53203E9AE1006B4E16 /* Build configuration list for PBXNativeTarget "LLLocalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F67E54203E9AE1006B4E16 /* Debug */,
+				09F67E55203E9AE1006B4E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "LLLocalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
